@@ -124,6 +124,9 @@ with left:
         ids = [storage.add_complaint(d["text"], d["channel"], d["station"], now - 60 * d["minutes_ago"], True)
                for d in FIX["sample_history"]]
         run_triage(ids)
+    if n_sample:
+        st.caption("Sample history groups with new reports for 30 min after its latest report; "
+                   "submit the live complaint within ~20 min of loading, or restart with a fresh PS07_DB.")
     with st.expander("Demo: live complaint text"):
         st.code(FIX["live"]["text"], language=None)
 
@@ -148,12 +151,12 @@ with left:
             after = requests.get(f"{RECEIVER}/summary", timeout=2).json()
             st.info(f"Resent {n} acked events. Receiver events {before['events']} → {after['events']}, "
                     f"complaints {before['complaints']} → {after['complaints']}")
-        except requests.RequestException as e:
+        except (requests.RequestException, ValueError) as e:
             st.error(f"Receiver unreachable: {type(e).__name__}")
     if st.button("Receiver summary", key="summary"):
         try:
             st.json(requests.get(f"{RECEIVER}/summary", timeout=2).json())
-        except requests.RequestException as e:
+        except (requests.RequestException, ValueError) as e:
             st.error(f"Receiver unreachable: {type(e).__name__}")
 
 # ---- incident queue ---------------------------------------------------------

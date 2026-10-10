@@ -96,8 +96,8 @@ def call_model(text, station, channel):
 def model_status():
     """(model_present, message). Short timeout: status strip must not hang."""
     try:
-        names = [m["name"] for m in requests.get(f"{OLLAMA}/api/tags", timeout=2).json()["models"]]
-    except requests.RequestException:
+        names = [m["name"] for m in requests.get(f"{OLLAMA}/api/tags", timeout=2).json().get("models", [])]
+    except (requests.RequestException, ValueError):
         return False, "Ollama not reachable"
     ok = MODEL in names or f"{MODEL}:latest" in names
     return ok, MODEL if ok else f"{MODEL} not installed"
@@ -131,7 +131,8 @@ def canonical_asset(model_asset, text):
         m = _ASSET_RE.search(src)
         if m:
             kind = {"elevator": "Lift"}.get(m.group(1).lower(), m.group(1).title())
-            return f"{kind} {re.sub(r'[\s-]', '', m.group(2)).upper()}"
+            num = re.sub(r"[\s-]", "", m.group(2)).upper()
+            return f"{kind} {num}"
     return model_asset.strip().title() if model_asset and model_asset.strip() else None
 
 

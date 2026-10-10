@@ -74,7 +74,7 @@ def pending_ids(include_failed=False):
     states = ("pending", "failed") if include_failed else ("pending", "pending")
     with _con() as con:
         return [r[0] for r in con.execute(
-            "SELECT id FROM complaints WHERE status IN (?,?) ORDER BY received_at", states)]
+            "SELECT id FROM complaints WHERE status IN (?,?) AND corrected=0 ORDER BY received_at", states)]
 
 
 def get_complaint(cid):
@@ -263,7 +263,7 @@ def counts():
         return {
             "complaints": q("SELECT COUNT(*) FROM complaints"),
             "pending": q("SELECT COUNT(*) FROM complaints WHERE status='pending'"),
-            "failed": q("SELECT COUNT(*) FROM complaints WHERE status='failed'"),
+            "failed": q("SELECT COUNT(*) FROM complaints WHERE status='failed' AND corrected=0"),
             "review": q("SELECT COUNT(*) FROM complaints WHERE status IN ('review','failed') AND corrected=0"),
             "unsynced": q("SELECT COUNT(*) FROM outbox WHERE acked_at IS NULL"),
             "last_ack": q("SELECT MAX(acked_at) FROM outbox"),

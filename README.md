@@ -9,9 +9,10 @@ All inference runs locally through Ollama; nothing leaves the laptop except to t
 
 **Data: synthetic complaints; real station names; fictional asset IDs** (e.g. `Lift L2` at Motera Stadium).
 
-## Run (Windows, from the repo root)
+## Run (Windows, from the repo root, Python 3.12+)
 
 ```powershell
+python -m venv .venv; .\.venv\Scripts\pip install -r requirements.txt   # if .venv does not exist
 ollama pull gemma4:e2b        # default model; set $env:PS07_MODEL to use another local model
 .\.venv\Scripts\python.exe -m streamlit run ps07/app.py --server.address 127.0.0.1
 .\.venv\Scripts\python.exe -m uvicorn ps07.receiver:app --host 127.0.0.1 --port 8001   # separate terminal
@@ -60,7 +61,8 @@ Streamlit (localhost)
 
 ## 90-second demo
 
-1. Before judges: warm the model, click **Load sample history (D1–D6)** (labelled "sample history"), stop the receiver, Wi-Fi off.
+1. Within ~20 min of the live demo (incidents only group reports less than 30 min apart; D3 is stamped 7 min before load):
+   warm the model, click **Load sample history (D1–D6)** (labelled "sample history"), stop the receiver, Wi-Fi off.
 2. Paste the live Gujlish complaint (in the "Demo: live complaint text" box) -> Save & triage. The L2 incident jumps to P5
    with the evidence quote; open it to show four original reports in three languages and the Gujlish draft.
 3. Show **Pending sync** > 0. Start the receiver; pending drains. Click **Receiver summary**, then **Resend acked** to show
