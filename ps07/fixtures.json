@@ -1,0 +1,12 @@
+{
+  "label": "Synthetic complaints; real station names; fictional asset IDs.",
+  "sample_history": [
+    {"id": "D1", "minutes_ago": 10, "station": "Motera Stadium", "channel": "helpline", "text": "Motera Stadium Lift L2 is not working."},
+    {"id": "D2", "minutes_ago": 8, "station": "Motera Stadium", "channel": "counter", "text": "મોટેરા સ્ટેડિયમ પર Lift L2 બંધ છે."},
+    {"id": "D3", "minutes_ago": 7, "station": "Motera Stadium", "channel": "whatsapp (imported)", "text": "Motera Stadium par Lift L2 bandh chhe."},
+    {"id": "D4", "minutes_ago": 6, "station": "Sabarmati", "channel": "email (imported)", "text": "Sabarmati station par ticket ke paise do baar kat gaye."},
+    {"id": "D5", "minutes_ago": 4, "station": "Thaltej", "channel": "app", "text": "Thaltej station par safai nahi hui hai."},
+    {"id": "D6", "minutes_ago": 2, "station": "Motera Stadium", "channel": "counter", "text": "Motera Stadium ticket counter staff spoke rudely to me."}
+  ],
+  "live": {"station": "Motera Stadium", "channel": "whatsapp (imported)", "text": "Motera Stadium ni Lift L2 ma andar ek vyakti fasaya chhe. Darvajo khulto nathi."}
+}

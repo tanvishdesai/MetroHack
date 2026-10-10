@@ -1,0 +1,323 @@
+station,stop_id,stop_name,distance_m
+AEC,AMC_5407,Power House Staff Quarters,144
+AEC,AMC_173,Sabarmati Power House,149
+AEC,AMC_2174,Power House,201
+AEC,AMC_8337,Kailadevi Dham (Power House),210
+AEC,AMC_175,Rathi Apartment,422
+AEC,AMC_2175,Dharmnagar,454
+APMC,AMC_2932,APMC Market,64
+APMC,AMC_2931,Shivshakti Nagar (Jivraj),133
+APMC,AMC_1260,Guptanagar,286
+APMC,AMC_376,Maktampura Ward Office,309
+APMC,AMC_1261,Sarani Kamdar Society,318
+APMC,AMC_4456,Vishala Circle,478
+APMC,AMC_1259,Pravinnagar,527
+APMC,AMC_374,Pravinnagar,532
+APMC,AMC_2081,Vaishali Township,588
+APMC,AMC_5364,F.D.High School,592
+Amraiwadi,AMC_2702,Swastik Industries,62
+Amraiwadi,AMC_10200,Aashapuri Nagar,248
+Amraiwadi,AMC_2703,Amaraiwadi Post Office,277
+Amraiwadi,AMC_5893,Ramnagar,346
+Amraiwadi,AMC_8503,Amraiwadi,426
+Amraiwadi,AMC_1193,Sanjay Chowk,434
+Amraiwadi,AMC_1194,Nagarvel Hanuman,489
+Amraiwadi,AMC_8501,Indiranagar (Naranmitha ni chali),494
+Amraiwadi,AMC_2704,Satyanarayan Society,513
+Amraiwadi,AMC_1192,Ashwamegh Society (Nagarvel),559
+Apparel Park,AMC_10352,Apparel Park Metro Station (New Cotton Mills),23
+Apparel Park,AMC_8497,New Cotton Mill,138
+Apparel Park,AMC_8505,Society ni chali,199
+Apparel Park,AMC_8465,Sukhramnagar Pani ni Tanki,276
+Apparel Park,AMC_8343,Saujanya Apartment,294
+Apparel Park,AMC_8499,Bunglow,352
+Apparel Park,AMC_8724,Bhagyoday Society (Sukhramnagar),412
+Apparel Park,AMC_8463,Sukhramnagar,498
+Apparel Park,AMC_8495,Ashima Group,512
+Apparel Park,AMC_8722,Ghanshyam Rubber works,517
+Apparel Park,AMC_8501,Indiranagar (Naranmitha ni chali),591
+Commerce Six Road,AMC_3031,Kailasnagar,89
+Commerce Six Road,AMC_19,Memnagar,131
+Commerce Six Road,AMC_3032,Saurabh Society,229
+Commerce Six Road,AMC_3033,Lion Sharad Mehta Garden,418
+Commerce Six Road,AMC_6226,G.M.D.C. Ground,422
+Commerce Six Road,AMC_3250,Manav Mandir,440
+Commerce Six Road,AMC_9447,Shri Ambe Mata Nu Mandir,440
+Commerce Six Road,AMC_17,Shree Valinath Chowk,490
+Commerce Six Road,AMC_3034,St. Xaviers High School,551
+Dholakuva Circle,AMC_8288,Raksha Shakti Circle,523
+Doordarshan Kendra,AMC_3021,Telephone Training Centre (Ambawadi),73
+Doordarshan Kendra,AMC_3848,Sal Hospital,127
+Doordarshan Kendra,AMC_6220,Dordarshan Kendra(Anjani Mandir),162
+Doordarshan Kendra,AMC_5470,Sardar Patel Institute,251
+Doordarshan Kendra,AMC_3020,Shantinath Mahadev (Jay Ambenagar),365
+Doordarshan Kendra,AMC_3022,Drive In Cinema,412
+Doordarshan Kendra,AMC_3847,Surdhara Bunglows,427
+Doordarshan Kendra,AMC_3982,Sarkari Vasahat,485
+Doordarshan Kendra,AMC_2138,Bodakdev Sarkari Vasahat,518
+Doordarshan Kendra,AMC_3846,Surdhara Circle,520
+Doordarshan Kendra,AMC_3845,Manichandra Society,523
+Gandhigram,AMC_9927,Gandhigram (Metro Station),247
+Gandhigram,AMC_2221,Nataraj Cinema,263
+Gandhigram,AMC_2828,Nagari Hospital,275
+Gandhigram,AMC_2220,Vallabhsadan,347
+Gandhigram,AMC_1074,Gandhigram Railway Station,361
+Gandhigram,AMC_287,M J Library,410
+Gandhigram,AMC_1073,Sanyas Ashram,421
+Gandhigram,AMC_6459,B.J.Park,479
+Gandhigram,AMC_3252,Mithakhali,483
+Gandhigram,AMC_3041,Madalpur (Town Hall),484
+Gandhigram,AMC_6461,Vallabhsadan Cross road,492
+Gandhigram,AMC_2826,Maharashtra Society,496
+Gandhigram,AMC_2829,Gujarat College,552
+Gheekanta,AMC_3044,Krushna Cinema,176
+Gheekanta,AMC_3045,Zaverivad,339
+Gheekanta,AMC_3043,Paththar Kuva,403
+Gheekanta,AMC_1079,Jansatta Karyalay,414
+Gheekanta,AMC_4066,Fuwara,491
+Gheekanta,AMC_1080,Ahmedabad Gramya Jilla Nyayalay,506
+Gheekanta,AMC_4026,Pankornaka,510
+Gheekanta,AMC_1078,Dinbai Tower,539
+Gheekanta,AMC_4025,Tin Darwaja,545
+Gheekanta,AMC_4088,Fatasa Ni Pol,573
+Gheekanta,AMC_3042,Vijalighar,581
+Gujarat University,AMC_1053,Jain Upashray (Hira Panna Flats),57
+Gujarat University,AMC_5507,Ishwar Bhuvan,190
+Gujarat University,AMC_3251,Suchita Apartment (Vijay Char Rasta),310
+Gujarat University,AMC_1217,Commerce College,332
+Gujarat University,AMC_1221,Dada Sahebna Pagala,458
+Gujarat University,AMC_4953,Memnagar Tubewell Station,510
+Gujarat University,AMC_5506,Swati Society,522
+Gujarat University,AMC_1216,Commerce College Hostel,579
+Gurukul Road,AMC_3248,Gurukul,23
+Gurukul Road,AMC_3249,Niranjan Society,195
+Gurukul Road,AMC_3023,Indraprasth Tower,320
+Gurukul Road,AMC_3025,Nand Apartment,389
+Gurukul Road,AMC_3250,Manav Mandir,462
+Gurukul Road,AMC_2983,Memnagar Gam,515
+Infocity,AMC_8290,Infocity,123
+Infocity,AMC_8292,CH-Road Indroda CIrcle,268
+Infocity,AMC_9711,Dholakuva,277
+Jivraj Park,AMC_2929,Jivraj Park,33
+Jivraj Park,AMC_2928,Jivraj Park (Rt.40/1 Stand),146
+Jivraj Park,AMC_1358,Gyanada Society,222
+Jivraj Park,AMC_3810,Gnanada Society,246
+Jivraj Park,AMC_2930,Baladevnagar,300
+Jivraj Park,AMC_1360,Vishwamitra Society,446
+Jivraj Park,AMC_1144,Vishwakarma Society,465
+Jivraj Park,AMC_1578,Dr.Shyamaprasad Overbridge,484
+Juna Koba,AMC_2317,Satnam Motors (Bharat Petrolium),503
+Juna Koba,AMC_2318,Jain Aradhana Kendra,564
+Juna Sachivalaya,AMC_8304,Prerna Circle CH-5,124
+Juna Sachivalaya,GTSL_30,Ch-5,131
+Juna Sachivalaya,GTSL_29,Jilla Panchayat,433
+Juna Sachivalaya,AMC_9721,Panchdev Mandir,524
+Kalupur Railway Station,AMC_8112,Chartoda Kbrstan Char Rasta,341
+Kalupur Railway Station,AMC_203,Kalupur,376
+Kalupur Railway Station,AMC_8107,Kalupur Metro Station,395
+Kalupur Railway Station,AMC_3343,Julta Minara,436
+Kalupur Railway Station,AMC_4092,Shaher Kotda,465
+Kalupur Railway Station,AMC_3050,Kalupur Terminus,498
+Kalupur Railway Station,AMC_1490,Kamdar Medan,515
+Kalupur Railway Station,AMC_201,Sarangpur Darwaja,528
+Kalupur Railway Station,AMC_1489,Sarangpur,537
+Kalupur Railway Station,AMC_9953,Sarangpur Depot,550
+Kalupur Railway Station,AMC_4091,Panchkuva,575
+Kalupur Railway Station,AMC_8921,Panch Kuva Darwaja,582
+Kalupur Railway Station,AMC_8109,Kamdar Medan Char Rasta,587
+Kalupur Railway Station,AMC_3049,Revdi Bazar,589
+Kalupur Railway Station,AMC_2271,Kalupur,592
+Kankaria East,AMC_7903,St. Joseph School,115
+Kankaria East,AMC_7902,Rajpur Tollnaka,165
+Kankaria East,AMC_10359,Jivram Bhatt ni Chali,279
+Kankaria East,AMC_7901,Narsinhji,425
+Kankaria East,AMC_10363,Topi Mill,576
+Kankaria East,AMC_10361,Jhulta Minara,582
+Kankaria East,AMC_10360,Hiralal ni Chali,587
+Kankaria East,AMC_1490,Kamdar Medan,588
+Kankaria East,AMC_8109,Kamdar Medan Char Rasta,592
+Koba Circle,AMC_9412,Koba Metro Station,63
+Koba Circle,AMC_2384,Manvar Party Plot,183
+Koba Circle,AMC_2319,Koba Circle,357
+Koteshwar Road,AMC_2434,Akashdarshan Society,32
+Koteshwar Road,AMC_2435,Motera Gam,245
+Koteshwar Road,AMC_4027,Shubham Society,283
+Koteshwar Road,AMC_2433,Sahajanand Park,308
+Koteshwar Road,AMC_4028,Sai Sneh Residency,467
+Koteshwar Road,AMC_2436,Maruti Nandan-1,475
+Koteshwar Road,AMC_2441,Ashok Vihar,500
+Koteshwar Road,AMC_2440,Visamo Society,516
+Motera Stadium,AMC_2431,Sangath Bunglows,16
+Motera Stadium,AMC_2430,Narendra Modi Stadium,242
+Motera Stadium,AMC_2432,Shri Ashrambapu Ashram Cross Road,264
+Motera Stadium,AMC_2429,Indiranagar,556
+Motera Stadium,AMC_2433,Sahajanand Park,593
+Narmada Canal,AMC_9410,Sughad Metro Station,29
+Narmada Canal,AMC_9699,Amiyapur,424
+Narmada Canal,AMC_9701,Narmada Canal,563
+Old High Court,AMC_5974,Metro Station,182
+Old High Court,AMC_1212,Income Tax Office,327
+Old High Court,AMC_1214,Navarangpura,430
+Old High Court,AMC_10091,Sardar Patel Stadium (Metro Station),430
+Old High Court,AMC_1353,Mount Carmel School,487
+Old High Court,AMC_3705,Swastik Char Rasta,548
+Old High Court,AMC_3704,Sardar Patel Stadium,587
+Paldi,AMC_10365,Paldi Metro Station,217
+Paldi,AMC_2672,Hope Nuro Care Hospital,278
+Paldi,AMC_2671,University Granth Nirman Board,342
+Paldi,AMC_2886,Paldi,507
+Paldi,AMC_1070,Pritamnagar,534
+Paldi,AMC_7107,Dr.House (Parimal Crossing),544
+Paldi,AMC_1135,Nutan Society,573
+Paldi,AMC_1071,Arvind Sales Emporium,592
+Rabari Colony,AMC_5891,Ghanti,111
+Rabari Colony,AMC_95,Rabari Colony,182
+Rabari Colony,AMC_3674,Rabari Colony,224
+Rabari Colony,AMC_3729,Ramrajyanagar,299
+Rabari Colony,AMC_1172,Satyamnagar,314
+Rabari Colony,AMC_3730,Ramji Bhagat Chowk (Satyamnagar),319
+Rabari Colony,AMC_3675,Ajay Tenaments,332
+Rabari Colony,AMC_97,Ram Rajya Nagar,383
+Rabari Colony,AMC_5893,Ramnagar,442
+Rabari Colony,AMC_1192,Ashwamegh Society (Nagarvel),447
+Rabari Colony,AMC_5244,Jain Milan Society,482
+Rabari Colony,AMC_3613,Jogeshwari Society,539
+Rabari Colony,AMC_10200,Aashapuri Nagar,540
+Rabari Colony,AMC_93,Jogeshwari Society,555
+Rabari Colony,AMC_3728,Sureliya Estate,578
+Rabari Colony,AMC_1189,Harbholenath Park,585
+Rajiv Nagar,AMC_1142,Shrikunj Society,227
+Rajiv Nagar,AMC_1357,Malav Talav,342
+Rajiv Nagar,AMC_3810,Gnanada Society,347
+Rajiv Nagar,AMC_1358,Gyanada Society,369
+Rajiv Nagar,AMC_2928,Jivraj Park (Rt.40/1 Stand),506
+Rajiv Nagar,AMC_1578,Dr.Shyamaprasad Overbridge,528
+Rajiv Nagar,AMC_2929,Jivraj Park,549
+Rajiv Nagar,AMC_5422,Silp Siddhi Flats,576
+Rajiv Nagar,AMC_1141,Ayojannagar,577
+Rajiv Nagar,AMC_1144,Vishwakarma Society,583
+Ranip,AMC_8519,Ranip ST Bus Stand,113
+Ranip,AMC_3,Ranip Cross Road,154
+Ranip,AMC_7404,Nil Complex (Nandanvan Apartment),261
+Ranip,AMC_3692,Dr.Ambedkar Rashtriya Foundation,267
+Ranip,AMC_3457,N.R.Patel Park,273
+Ranip,AMC_123,N R Patel Park,293
+Ranip,AMC_4258,Vanraj society,354
+Ranip,AMC_3458,Bhavsar Hostel,505
+Ranip,AMC_3599,Umang Park Society,524
+Ranip,AMC_3456,Nava Vadaj Police Chowki,531
+Ranip,AMC_5,Bhavsar Hostel,568
+Sabarmati,AMC_2425,Ramnagar,99
+Sabarmati,AMC_2426,Chintamani Society,183
+Sabarmati,AMC_5735,varsoda ni chali,264
+Sabarmati,AMC_177,Sabarmati Municipal Swimming pool,269
+Sabarmati,AMC_5572,Municipal Snanagar (Sabarmati),329
+Sabarmati,AMC_179,Sabarmati Police Station,371
+Sabarmati,AMC_9535,Sabarmati Police Chowki BRT,373
+Sabarmati,AMC_2208,Gram Panchayat Office,387
+Sabarmati,AMC_2181,Abu-Koba Cross Road,483
+Sabarmati,AMC_2175,Dharmnagar,559
+Sector-10A,AMC_8298,CH-3 Circle (Sector-11),275
+Sector-10A,AMC_9715,White House,348
+Sector-10A,AMC_9717,Nirmanbhavan Crossroad,468
+Sector-10A,GTSL_27,Suman Tower,541
+Sector-10A,AMC_8300,Vidhan Sabha - Udhyog Bhavan Crossroad,599
+Sector-16,GTSL_5,Gh-5,169
+Sector-16,GTSL_6,Gh-5/5,575
+Shahpur,AMC_1210,Shahpur Darwaja,10
+Shahpur,AMC_6010,Dr. Ambedkar Chock (Shahpur Darwaja),177
+Shahpur,AMC_1209,Halimni Khadki,250
+Shahpur,AMC_5996,Lala Kaka Municipal Hall,391
+Shahpur,AMC_1211,Shankar Bhuvan,404
+Shahpur,AMC_5150,Bhavans College,465
+Shahpur,AMC_133,Sarkari Litho Press,510
+Shahpur,AMC_281,Sarkari Litho Press Cabin,537
+Shahpur,AMC_1156,Delhi Darwaja (Rt.77 Stand),550
+Shreyas,AMC_1139,Sharda Society,95
+Shreyas,AMC_1138,Sharda Mandir,186
+Shreyas,AMC_1137,Sukhipura,474
+Shreyas,AMC_3060,Shardanagar,495
+Shreyas,AMC_3061,Vikas Gruh,532
+Shreyas,AMC_8277,Dharnidhar Derasar,599
+Tapovan Circle,AMC_9697,Merudham JainTemple,141
+Tapovan Circle,AMC_5835,Tapovan Circle (S.P.Ring Road),186
+Tapovan Circle,AMC_9699,Amiyapur,429
+Thaltej,AMC_3018,Bhaikakanagar,17
+Thaltej,AMC_6217,Thaltej Metro Station,79
+Thaltej,AMC_1616,Thaltej Char Rasta,160
+Thaltej,AMC_3019,Muktidham jain derasar,210
+Thaltej,AMC_6395,Gurudwara,323
+Thaltej,AMC_1617,Vinay Vidya Mandir,354
+Thaltej,AMC_3017,Thakorvas,367
+Thaltej,AMC_1693,Guru Govind Dham,450
+Thaltej,AMC_6372,Thaltej Gam,458
+Thaltej,AMC_3020,Shantinath Mahadev (Jay Ambenagar),529
+Thaltej Gam,AMC_3014,Talavdi (Thaltej),10
+Thaltej Gam,AMC_3016,Thaltej Gam,82
+Thaltej Gam,AMC_3531,Shivdhara Flats,221
+Thaltej Gam,AMC_3015,Govardhan party plot,225
+Thaltej Gam,AMC_2998,Shivdhara,248
+Thaltej Gam,AMC_3530,Sahajanand Bunglows (Thaltej),395
+Thaltej Gam,AMC_9015,Mango Garden,410
+Thaltej Gam,AMC_8799,Shree Naran Dham,423
+Thaltej Gam,AMC_9017,Shaligram,438
+Thaltej Gam,AMC_6372,Thaltej Gam,465
+Thaltej Gam,AMC_9013,Hira Prabhu Farm,478
+Thaltej Gam,AMC_9019,Anmole Farm,522
+Thaltej Gam,AMC_3017,Thakorvas,557
+Usmanpura,AMC_3387,Sardar Patel Colony,131
+Usmanpura,AMC_3702,Mahadevnagar (Naranpura),309
+Usmanpura,AMC_3386,Sardar Patel Square,311
+Usmanpura,AMC_3701,S.P. Square (Bavlu),326
+Usmanpura,AMC_2862,Vidyanagar High School (Usmanpura),415
+Usmanpura,AMC_2861,Panchshil Society,423
+Usmanpura,AMC_3703,Navjivan Blocks,438
+Usmanpura,AMC_5005,Chaitanya Society,478
+Usmanpura,AMC_3704,Sardar Patel Stadium,530
+Usmanpura,AMC_2863,Usmanpura,540
+Usmanpura,AMC_2110,Gujarat Vidyapith,580
+Vadaj,AMC_10089,Vadaj Metro Station,79
+Vadaj,AMC_3459,Vyaswadi,80
+Vadaj,AMC_5565,Thirupurnagar Society,168
+Vadaj,AMC_7,Akhbarnagar,219
+Vadaj,AMC_5,Bhavsar Hostel,277
+Vadaj,AMC_2038,Krushnanagar (Nava Vadaj),334
+Vadaj,AMC_3458,Bhavsar Hostel,341
+Vadaj,AMC_3460,Shrinath Apartment,357
+Vadaj,AMC_5566,Swaminarayan Mandir (Nava Vadaj),411
+Vadaj,AMC_2037,Punam Party Plot,439
+Vadaj,AMC_2101,Nava Vadaj,491
+Vadaj,AMC_3461,Chandrabhaga Raw House,506
+Vadaj,AMC_2036,Purushottamnagar (Nava Vadaj),568
+Vadaj,AMC_7404,Nil Complex (Nandanvan Apartment),584
+Vadaj,AMC_3457,N.R.Patel Park,592
+Vastral,AMC_3726,Mahadevnagar Tekra,55
+Vastral,AMC_7924,Shri V.K.Vidyalay,305
+Vastral,AMC_3725,Sarkari Gochar,334
+Vastral,AMC_7813,R.T.O. (East),337
+Vastral,AMC_3727,New Ritanagar,465
+Vastral,AMC_7923,Ritanagar,467
+Vastral,AMC_7926,Manidhar Society,513
+Vastral,AMC_3724,Saidham Tenament,514
+Vastral Gam,AMC_3716,Sukharam Mahadev,27
+Vastral Gam,AMC_9390,Vastral Gam(Metro Station),155
+Vastral Gam,AMC_3715,S.P.Ring Road (Pushp Residency),272
+Vastral Gam,AMC_9392,Vastral Talav,340
+Vastral Gam,AMC_3717,Vastral Gam,403
+Vijay Nagar,AMC_5498,Sanghavi High School,212
+Vijay Nagar,AMC_5497,Hasmukh Colony,302
+Vijay Nagar,AMC_5499,Somnath Society,366
+Vijay Nagar,AMC_3698,Sundarnagar (Sundarvan Society),400
+Vijay Nagar,AMC_10094,Vijaynagar Metro station,401
+Vijay Nagar,AMC_7857,Vijaynagar Railway Crossing,403
+Vijay Nagar,AMC_2683,Kiran Park,436
+Vijay Nagar,AMC_3697,Rangjyot Society,462
+Vijay Nagar,AMC_2859,Gautamnagar (Naranpura Railway Crossing),473
+Vijay Nagar,AMC_5481,Vijaynagar,488
+Vijay Nagar,AMC_5538,Patrakar Colony (Vijaynagar),539
+Vijay Nagar,AMC_2678,Naranpura Char Rasta,548
+Vishwakarma College,AMC_8770,Vishwakarma College Metro (S.M.S. Hospital),162
+Vishwakarma College,AMC_9850,Khodiyar Char Rasta,418
+Vishwakarma College,AMC_2438,Shrushti Arcade,470
+Vishwakarma College,AMC_2439,Fire Station Cross Road,486
+Vishwakarma College,AMC_8815,Omkar Bungalows,542

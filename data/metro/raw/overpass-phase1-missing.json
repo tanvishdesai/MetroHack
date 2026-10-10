@@ -1,0 +1,636 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-10T14:49:21Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1559491365,
+  "lat": 23.0145531,
+  "lon": 72.5635432,
+  "tags": {
+    "name": "Paldi",
+    "place": "suburb",
+    "wikidata": "Q4046905",
+    "wikipedia": "en:Paldi"
+  }
+},
+{
+  "type": "node",
+  "id": 4486254296,
+  "lat": 23.0494863,
+  "lon": 72.5672615,
+  "tags": {
+    "name": "Usmanpura",
+    "name:en": "Usmanpura",
+    "place": "suburb",
+    "wikidata": "Q7902070",
+    "wikipedia": "en:Usmanpura"
+  }
+},
+{
+  "type": "node",
+  "id": 4486401683,
+  "lat": 23.0766234,
+  "lon": 72.5764197,
+  "tags": {
+    "name": "Ranip",
+    "place": "suburb",
+    "wikidata": "Q726899",
+    "wikipedia": "en:Ranip"
+  }
+},
+{
+  "type": "node",
+  "id": 4486573997,
+  "lat": 23.0057574,
+  "lon": 72.6269822,
+  "tags": {
+    "name": "Amraiwadi",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4488603442,
+  "lat": 23.0031192,
+  "lon": 72.6335677,
+  "tags": {
+    "name": "Rabari Colony",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4488607993,
+  "lat": 22.9948656,
+  "lon": 72.6624431,
+  "tags": {
+    "name": "Vastral",
+    "place": "suburb",
+    "wikidata": "Q2738409",
+    "wikipedia": "en:Vastral"
+  }
+},
+{
+  "type": "node",
+  "id": 5622697516,
+  "lat": 23.0054130,
+  "lon": 72.6355917,
+  "tags": {
+    "name": "Rabari Colony",
+    "name:gu": "રબારી કોલોની",
+    "network": "Ahmedabad Metro",
+    "operator": "Gujarat Metro Rail Corporation Limited",
+    "public_transport": "stop_position",
+    "public_transport:version": "2",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5622701027,
+  "lat": 23.0106557,
+  "lon": 72.6182366,
+  "tags": {
+    "name": "Apparel Park",
+    "name:gu": "એપરલ પાર્ક",
+    "network": "Ahmedabad Metro",
+    "operator": "Gujarat Metro Rail Corporation Limited",
+    "public_transport": "stop_position",
+    "public_transport:version": "2",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5622701067,
+  "lat": 23.0375426,
+  "lon": 72.5670608,
+  "tags": {
+    "name": "Old High Court",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "ref": "2",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5622701095,
+  "lat": 23.0481400,
+  "lon": 72.5245036,
+  "tags": {
+    "name": "Doordarshan Kendra",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5622776290,
+  "lat": 23.0564338,
+  "lon": 72.5622541,
+  "tags": {
+    "name": "Vijay Nagar",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6432742906,
+  "lat": 23.0078462,
+  "lon": 72.6283735,
+  "tags": {
+    "name": "Amraiwadi",
+    "name:gu": "અમરીવાડી",
+    "network": "Ahmedabad Metro",
+    "operator": "Gujarat Metro Rail Corporation Limited",
+    "public_transport": "stop_position",
+    "public_transport:version": "2",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6432742907,
+  "lat": 23.0034916,
+  "lon": 72.6476943,
+  "tags": {
+    "name": "Vastral",
+    "name:gu": "વસ્ત્રાલ",
+    "network": "Ahmedabad Metro",
+    "operator": "Gujarat Metro Rail Corporation Limited",
+    "public_transport": "stop_position",
+    "public_transport:version": "2",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6432742909,
+  "lat": 22.9971313,
+  "lon": 72.6674512,
+  "tags": {
+    "name": "Vastral Gam",
+    "name:gu": "વસ્ત્રાલ ગામ",
+    "network": "Ahmedabad Metro",
+    "operator": "Gujarat Metro Rail Corporation Limited",
+    "public_transport": "stop_position",
+    "public_transport:version": "2",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7944287422,
+  "lat": 23.0696747,
+  "lon": 72.5864485,
+  "tags": {
+    "construction": "station",
+    "name": "Sabarmati Railway Station",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 9503556232,
+  "lat": 23.0677222,
+  "lon": 72.5741509,
+  "tags": {
+    "name": "Ranip",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9655564621,
+  "lat": 23.0107028,
+  "lon": 72.6182378,
+  "tags": {
+    "name": "Apparel Park",
+    "name:gu": "એપરલ પાર્ક",
+    "network": "Ahmedabad Metro",
+    "operator": "Gujarat Metro Rail Corporation Limited",
+    "public_transport": "stop_position",
+    "public_transport:version": "2",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9655564654,
+  "lat": 23.0078943,
+  "lon": 72.6284005,
+  "tags": {
+    "name": "Amraiwadi",
+    "name:gu": "અમરીવાડી",
+    "network": "Ahmedabad Metro",
+    "operator": "Gujarat Metro Rail Corporation Limited",
+    "public_transport": "stop_position",
+    "public_transport:version": "2",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9655564655,
+  "lat": 23.0054549,
+  "lon": 72.6356280,
+  "tags": {
+    "name": "Rabari Colony",
+    "name:gu": "રબારી કોલોની",
+    "network": "Ahmedabad Metro",
+    "operator": "Gujarat Metro Rail Corporation Limited",
+    "public_transport": "stop_position",
+    "public_transport:version": "2",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9655564690,
+  "lat": 23.0035358,
+  "lon": 72.6477227,
+  "tags": {
+    "name": "Vastral",
+    "name:gu": "વસ્ત્રાલ",
+    "network": "Ahmedabad Metro",
+    "operator": "Gujarat Metro Rail Corporation Limited",
+    "public_transport": "stop_position",
+    "public_transport:version": "2",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9655564728,
+  "lat": 22.9972131,
+  "lon": 72.6674915,
+  "tags": {
+    "name": "Vastral Gam",
+    "name:gu": "વસ્ત્રાલ ગામ",
+    "network": "Ahmedabad Metro",
+    "operator": "Gujarat Metro Rail Corporation Limited",
+    "public_transport": "stop_position",
+    "public_transport:version": "2",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10076565256,
+  "lat": 23.0375956,
+  "lon": 72.5670605,
+  "tags": {
+    "name": "Old High Court",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "ref": "1",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10076565330,
+  "lat": 23.0459280,
+  "lon": 72.5348776,
+  "tags": {
+    "name": "Gurukul Road",
+    "name:gu": "ગુરુકુલ રોડ",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10076565331,
+  "lat": 23.0458688,
+  "lon": 72.5348755,
+  "tags": {
+    "name": "Gurukul Road",
+    "name:gu": "ગુરુકુલ રોડ",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10076565352,
+  "lat": 23.0481838,
+  "lon": 72.5245109,
+  "tags": {
+    "name": "Doordarshan Kendra",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10076616651,
+  "lat": 22.9978151,
+  "lon": 72.5371344,
+  "tags": {
+    "name": "APMC",
+    "name:gu": "એ પી એમ સી",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10076616652,
+  "lat": 22.9978001,
+  "lon": 72.5370953,
+  "tags": {
+    "name": "APMC",
+    "name:gu": "એ પી એમ સી",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10076616710,
+  "lat": 23.0271728,
+  "lon": 72.5688973,
+  "tags": {
+    "name": "Gandhigram",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10076616711,
+  "lat": 23.0271754,
+  "lon": 72.5688202,
+  "tags": {
+    "name": "Gandhigram",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10076616712,
+  "lat": 23.0676950,
+  "lon": 72.5658899,
+  "tags": {
+    "name": "Vadaj",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10076616713,
+  "lat": 23.0676478,
+  "lon": 72.5658920,
+  "tags": {
+    "name": "Vadaj",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10076616748,
+  "lat": 23.0564531,
+  "lon": 72.5623294,
+  "tags": {
+    "name": "Vijay Nagar",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10076616753,
+  "lat": 23.0459092,
+  "lon": 72.5649270,
+  "tags": {
+    "name": "Usmanpura",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10076616754,
+  "lat": 23.0459360,
+  "lon": 72.5649953,
+  "tags": {
+    "name": "Usmanpura",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10076616759,
+  "lat": 23.0374805,
+  "lon": 72.5670541,
+  "tags": {
+    "name": "Old High Court",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "ref": "4",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10076616764,
+  "lat": 23.0374696,
+  "lon": 72.5668751,
+  "tags": {
+    "name": "Old High Court",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "ref": "3",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10076859828,
+  "lat": 23.0676615,
+  "lon": 72.5741529,
+  "tags": {
+    "name": "Ranip",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10076859848,
+  "lat": 23.0185472,
+  "lon": 72.5623281,
+  "tags": {
+    "name": "Paldi",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10076859849,
+  "lat": 23.0184541,
+  "lon": 72.5623806,
+  "tags": {
+    "name": "Paldi",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10076859862,
+  "lat": 23.0136478,
+  "lon": 72.5492445,
+  "tags": {
+    "name": "Shreyas",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10076859863,
+  "lat": 23.0136045,
+  "lon": 72.5492643,
+  "tags": {
+    "name": "Shreyas",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10076859881,
+  "lat": 23.0097711,
+  "lon": 72.5367573,
+  "tags": {
+    "name": "Rajiv Nagar",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10076859882,
+  "lat": 23.0097320,
+  "lon": 72.5367627,
+  "tags": {
+    "name": "Rajiv Nagar",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10076859907,
+  "lat": 23.0055338,
+  "lon": 72.5334739,
+  "tags": {
+    "name": "Jivraj Park",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10076859908,
+  "lat": 23.0055517,
+  "lon": 72.5335036,
+  "tags": {
+    "name": "Jivraj Park",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12196433538,
+  "lat": 23.1475910,
+  "lon": 72.6439246,
+  "tags": {
+    "name": "Koba Gam",
+    "name:gu": "કોબા ગામ",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "start_date": "2024-09-17",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12196433543,
+  "lat": 23.1476221,
+  "lon": 72.6438850,
+  "tags": {
+    "name": "Koba Gam",
+    "name:gu": "કોબા ગામ",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "start_date": "2024-09-17",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13324639923,
+  "lat": 23.0043839,
+  "lon": 72.6369046,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Rabari Colony",
+    "public_transport": "platform"
+  }
+}
+
+  ]
+}

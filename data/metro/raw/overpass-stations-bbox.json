@@ -1,0 +1,1015 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-10T14:48:20Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 322770856,
+  "lat": 23.0854097,
+  "lon": 72.6580946,
+  "tags": {
+    "internet_access": "no",
+    "name": "Naroda",
+    "network": "IR",
+    "operator": "WR",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "NRD",
+    "train": "yes",
+    "wikidata": "Q63358132"
+  }
+},
+{
+  "type": "node",
+  "id": 322983346,
+  "lat": 23.0079064,
+  "lon": 72.5174367,
+  "tags": {
+    "internet_access": "no",
+    "name": "Vastrapur",
+    "network": "IR",
+    "operator": "WR",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "VTP",
+    "train": "yes",
+    "wikidata": "Q63357815"
+  }
+},
+{
+  "type": "node",
+  "id": 323120091,
+  "lat": 22.9986596,
+  "lon": 72.6114013,
+  "tags": {
+    "internet_access": "no",
+    "name": "Maninagar",
+    "network": "IR",
+    "operator": "WR",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "MAN",
+    "train": "yes",
+    "wikidata": "Q6749778",
+    "wikipedia": "en:Maninagar railway station"
+  }
+},
+{
+  "type": "node",
+  "id": 323189766,
+  "lat": 23.0770712,
+  "lon": 72.5890677,
+  "tags": {
+    "historic:ref": "SBI",
+    "internet_access": "no",
+    "name": "Sabarmati",
+    "network": "IR",
+    "operator": "WR",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "SBIB",
+    "train": "yes",
+    "wikidata": "Q7395913",
+    "wikipedia": "en:Sabarmati Junction railway station"
+  }
+},
+{
+  "type": "node",
+  "id": 566222693,
+  "lat": 23.0440925,
+  "lon": 72.6132157,
+  "tags": {
+    "internet_access": "no",
+    "name": "Asarva",
+    "network": "IR",
+    "operator": "WR",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "ASV",
+    "train": "yes",
+    "wikidata": "Q24949933"
+  }
+},
+{
+  "type": "node",
+  "id": 566223451,
+  "lat": 23.0715012,
+  "lon": 72.6424393,
+  "tags": {
+    "internet_access": "no",
+    "name": "Sardargram",
+    "network": "IR",
+    "operator": "WR",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "SDGM",
+    "train": "yes",
+    "wikidata": "Q63357017"
+  }
+},
+{
+  "type": "node",
+  "id": 566226583,
+  "lat": 23.1647156,
+  "lon": 72.7435768,
+  "tags": {
+    "internet_access": "no",
+    "name": "Dabhoda",
+    "network": "IR",
+    "operator": "WR",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "DBO",
+    "train": "yes",
+    "wikidata": "Q63354824"
+  }
+},
+{
+  "type": "node",
+  "id": 779388997,
+  "lat": 23.2436683,
+  "lon": 72.5033550,
+  "tags": {
+    "historic:ref": "KLLM",
+    "internet_access": "no",
+    "name": "Kalol Junction",
+    "network": "IR",
+    "operator": "WR",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "KLL",
+    "train": "yes",
+    "wikidata": "Q24942798",
+    "wikipedia": "en:Kalol railway station"
+  }
+},
+{
+  "type": "node",
+  "id": 1349429257,
+  "lat": 23.0980898,
+  "lon": 72.5780885,
+  "tags": {
+    "internet_access": "no",
+    "name": "Kali Road",
+    "network": "IR",
+    "operator": "WR",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "KLRD",
+    "wikidata": "Q63356483"
+  }
+},
+{
+  "type": "node",
+  "id": 1545721824,
+  "lat": 22.9821021,
+  "lon": 72.4975186,
+  "tags": {
+    "internet_access": "no",
+    "name": "Sarkhej",
+    "network": "IR",
+    "operator": "WR",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "SEJ",
+    "train": "yes",
+    "wikidata": "Q63357047"
+  }
+},
+{
+  "type": "node",
+  "id": 2376612715,
+  "lat": 23.0535306,
+  "lon": 72.4934085,
+  "tags": {
+    "internet_access": "no",
+    "name": "Ambli Road",
+    "network": "IR",
+    "operator": "WR",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "ABD",
+    "train": "yes",
+    "wikidata": "Q63355331"
+  }
+},
+{
+  "type": "node",
+  "id": 2516708243,
+  "lat": 23.2348402,
+  "lon": 72.6303291,
+  "tags": {
+    "internet_access": "no",
+    "name": "Gandhinagar Capital",
+    "network": "IR",
+    "operator": "WR",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "GNC",
+    "train": "yes",
+    "wikidata": "Q24942800",
+    "wikipedia": "en:Gandhinagar Capital railway station"
+  }
+},
+{
+  "type": "node",
+  "id": 2669084968,
+  "lat": 23.0263312,
+  "lon": 72.6010000,
+  "tags": {
+    "addr:postcode": "380001",
+    "addr:street": "Station Road",
+    "alt_name": "Kalupur Railway Station",
+    "historic:ref": "ADIJ",
+    "internet_access": "wlan",
+    "name": "Ahmedabad Junction",
+    "network": "IR",
+    "operator": "WR",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "ADI",
+    "train": "yes",
+    "wikidata": "Q4696124",
+    "wikipedia": "en:Ahmedabad Junction railway station"
+  }
+},
+{
+  "type": "node",
+  "id": 3455747180,
+  "lat": 23.2582064,
+  "lon": 72.5651572,
+  "tags": {
+    "internet_access": "no",
+    "name": "Adraj Moti",
+    "network": "IR",
+    "operator": "WR",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "AJMI",
+    "train": "yes",
+    "wikidata": "Q63357752"
+  }
+},
+{
+  "type": "node",
+  "id": 3455747183,
+  "lat": 23.2712108,
+  "lon": 72.6121720,
+  "tags": {
+    "internet_access": "no",
+    "name": "Kolvada",
+    "name:gu": "કોલવડા",
+    "network": "IR",
+    "operator": "WR",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "KOVD",
+    "train": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4312193889,
+  "lat": 23.1559206,
+  "lon": 72.5483000,
+  "tags": {
+    "IR:zone": "WR",
+    "addr:city": "Ahmedabad",
+    "addr:postcode": "382421",
+    "addr:street": "Near NH 147",
+    "historic:ref": "KHD",
+    "internet_access": "no",
+    "name": "Khodiyar Junction",
+    "network": "IR",
+    "operator": "WR",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "KHDB",
+    "train": "yes",
+    "wikidata": "Q62004600",
+    "wikipedia": "en:Khodiyar railway station"
+  }
+},
+{
+  "type": "node",
+  "id": 4398457021,
+  "lat": 22.9589978,
+  "lon": 72.6297981,
+  "tags": {
+    "addr:city": "Nr.Vatva GIDC",
+    "addr:street": "Vatva phase -2 road",
+    "internet_access": "no",
+    "name": "Vatva",
+    "network": "IR",
+    "operator": "WR",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "VTA",
+    "train": "yes",
+    "wikidata": "Q24948676",
+    "wikipedia": "en:Vatva railway station"
+  }
+},
+{
+  "type": "node",
+  "id": 4486398588,
+  "lat": 23.0712603,
+  "lon": 72.5870272,
+  "tags": {
+    "internet_access": "no",
+    "name": "Sabarmati Junction",
+    "network": "IR",
+    "operator": "WR",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "SBT",
+    "train": "yes",
+    "wikidata": "Q7395913",
+    "wikipedia": "en:Sabarmati Junction railway station"
+  }
+},
+{
+  "type": "node",
+  "id": 5725638703,
+  "lat": 23.0751633,
+  "lon": 72.5440359,
+  "tags": {
+    "internet_access": "no",
+    "name": "Chandlodiya",
+    "network": "IR",
+    "operator": "WR",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "CLDY",
+    "train": "yes",
+    "wikidata": "Q62005675"
+  }
+},
+{
+  "type": "node",
+  "id": 5725639222,
+  "lat": 23.0386730,
+  "lon": 72.4517314,
+  "tags": {
+    "internet_access": "no",
+    "name": "Gora Ghuma",
+    "network": "IR",
+    "operator": "WR",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "GGM",
+    "train": "yes",
+    "wikidata": "Q31295488"
+  }
+},
+{
+  "type": "node",
+  "id": 6419254399,
+  "lat": 23.2091806,
+  "lon": 72.5206734,
+  "tags": {
+    "historic:ref": "SHRF",
+    "internet_access": "no",
+    "name": "Saij Sertha Road",
+    "network": "IR",
+    "operator": "WR",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "SHRD",
+    "train": "yes",
+    "wikidata": "Q63357018"
+  }
+},
+{
+  "type": "node",
+  "id": 6571896867,
+  "lat": 23.2478004,
+  "lon": 72.5475066,
+  "tags": {
+    "internet_access": "no",
+    "name": "Tintoda",
+    "network": "IR",
+    "operator": "WR",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "TTRA",
+    "train": "yes",
+    "wikidata": "Q104671567"
+  }
+},
+{
+  "type": "node",
+  "id": 6571916829,
+  "lat": 23.2971205,
+  "lon": 72.6338138,
+  "tags": {
+    "internet_access": "no",
+    "name": "Randheja",
+    "network": "IR",
+    "operator": "WR",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "RDJ",
+    "train": "yes",
+    "wikidata": "Q104671557"
+  }
+},
+{
+  "type": "node",
+  "id": 6738428335,
+  "lat": 23.0807984,
+  "lon": 72.5408184,
+  "tags": {
+    "internet_access": "no",
+    "name": "Chandlodiya 'B'",
+    "network": "IR",
+    "operator": "WR",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "CLDB",
+    "train": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6758793148,
+  "lat": 22.9645191,
+  "lon": 72.4704112,
+  "tags": {
+    "internet_access": "no",
+    "name": "Sanathal",
+    "network": "IR",
+    "operator": "WR",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "SNTL",
+    "train": "yes",
+    "wikidata": "Q104699511"
+  }
+},
+{
+  "type": "node",
+  "id": 7556326461,
+  "lat": 23.1103339,
+  "lon": 72.5637712,
+  "tags": {
+    "name": "Chandkheda Road",
+    "network": "IR",
+    "operator": "WR",
+    "railway": "station",
+    "ref": "CDK"
+  }
+},
+{
+  "type": "node",
+  "id": 7944287415,
+  "lat": 23.0246913,
+  "lon": 72.6031447,
+  "tags": {
+    "name": "Kalupur Railway Station",
+    "name:gu": "કાલુપુર રેલ્વે સ્ટેશન",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q114400466"
+  }
+},
+{
+  "type": "node",
+  "id": 7944287418,
+  "lat": 23.0154573,
+  "lon": 72.6070016,
+  "tags": {
+    "name": "Kankaria East",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q114400460"
+  }
+},
+{
+  "type": "node",
+  "id": 7944287421,
+  "lat": 23.0392105,
+  "lon": 72.5810327,
+  "tags": {
+    "name": "Shahpur Station",
+    "name:gu": "શાહપુર",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7944287424,
+  "lat": 23.0287940,
+  "lon": 72.5867752,
+  "tags": {
+    "name": "Gheekanta",
+    "name:gu": "ઘીકાંટા",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12196641344,
+  "lat": 23.1419718,
+  "lon": 72.6386122,
+  "tags": {
+    "name": "Juna Koba",
+    "name:gu": "જૂના કોબા",
+    "network": "Ahmedabad Metro",
+    "operator": "Gujarat Metro Rail Corporation Limited",
+    "operator:wikidata": "Q113158873",
+    "operator:wikipedia": "en:Gujarat Metro Rail Corporation Limited",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2024-09-17",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12196641345,
+  "lat": 23.1322508,
+  "lon": 72.6310420,
+  "tags": {
+    "name": "Koba Circle",
+    "name:gu": "કોબા સર્કલ",
+    "network": "Ahmedabad Metro",
+    "operator": "Gujarat Metro Rail Corporation Limited",
+    "operator:wikidata": "Q113158873",
+    "operator:wikipedia": "en:Gujarat Metro Rail Corporation Limited",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2024-09-17",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12196641346,
+  "lat": 23.1251457,
+  "lon": 72.6220979,
+  "tags": {
+    "name": "Narmada Canal",
+    "name:gu": "નર્મદા કેનાલ",
+    "network": "Ahmedabad Metro",
+    "operator": "Gujarat Metro Rail Corporation Limited",
+    "operator:wikidata": "Q113158873",
+    "operator:wikipedia": "en:Gujarat Metro Rail Corporation Limited",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2024-09-17",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12196641347,
+  "lat": 23.1201271,
+  "lon": 72.6157987,
+  "tags": {
+    "name": "Tapovan Circle",
+    "name:gu": "તપોવન સર્કલ",
+    "network": "Ahmedabad Metro",
+    "operator": "Gujarat Metro Rail Corporation Limited",
+    "operator:wikidata": "Q113158873",
+    "operator:wikipedia": "en:Gujarat Metro Rail Corporation Limited",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2024-09-17",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12196641348,
+  "lat": 23.1141999,
+  "lon": 72.6083864,
+  "tags": {
+    "name": "Vishwakarma College",
+    "name:gu": "વિશ્વકર્મા કોલેજ",
+    "network": "Ahmedabad Metro",
+    "operator": "Gujarat Metro Rail Corporation Limited",
+    "operator:wikidata": "Q113158873",
+    "operator:wikipedia": "en:Gujarat Metro Rail Corporation Limited",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2024-09-17",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12196641349,
+  "lat": 23.1031114,
+  "lon": 72.6021329,
+  "tags": {
+    "name": "Koteshwar Road",
+    "name:gu": "કોટેશ્વર રોડ",
+    "network": "Ahmedabad Metro",
+    "operator": "Gujarat Metro Rail Corporation Limited",
+    "operator:wikidata": "Q113158873",
+    "operator:wikipedia": "en:Gujarat Metro Rail Corporation Limited",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2024-09-17",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12196641350,
+  "lat": 23.1663954,
+  "lon": 72.6483252,
+  "tags": {
+    "name": "Raysan",
+    "name:gu": "રાયસન",
+    "network": "Ahmedabad Metro",
+    "operator": "Gujarat Metro Rail Corporation Limited",
+    "operator:wikidata": "Q113158873",
+    "operator:wikipedia": "en:Gujarat Metro Rail Corporation Limited",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2024-09-17",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12196641351,
+  "lat": 23.1790845,
+  "lon": 72.6472905,
+  "tags": {
+    "name": "Randesan",
+    "name:gu": "રાંદેસણ",
+    "network": "Ahmedabad Metro",
+    "operator": "Gujarat Metro Rail Corporation Limited",
+    "operator:wikidata": "Q113158873",
+    "operator:wikipedia": "en:Gujarat Metro Rail Corporation Limited",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2024-09-17",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12196641352,
+  "lat": 23.1859445,
+  "lon": 72.6433202,
+  "tags": {
+    "name": "Dholakuva Circle",
+    "name:gu": "ધોળાકુવા સર્કલ",
+    "network": "Ahmedabad Metro",
+    "operator": "Gujarat Metro Rail Corporation Limited",
+    "operator:wikidata": "Q113158873",
+    "operator:wikipedia": "en:Gujarat Metro Rail Corporation Limited",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2024-09-17",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12196641353,
+  "lat": 23.1922574,
+  "lon": 72.6397126,
+  "tags": {
+    "name": "Infocity",
+    "name:gu": "ઇન્ફોસિટી",
+    "network": "Ahmedabad Metro",
+    "operator": "Gujarat Metro Rail Corporation Limited",
+    "operator:wikidata": "Q113158873",
+    "operator:wikipedia": "en:Gujarat Metro Rail Corporation Limited",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2024-09-17",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12196641354,
+  "lat": 23.2049077,
+  "lon": 72.6431519,
+  "tags": {
+    "name": "Sector-1",
+    "name:gu": "સેક્ટર-1",
+    "network": "Ahmedabad Metro",
+    "operator": "Gujarat Metro Rail Corporation Limited",
+    "operator:wikidata": "Q113158873",
+    "operator:wikipedia": "en:Gujarat Metro Rail Corporation Limited",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2024-09-17",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12196641355,
+  "lat": 23.1544724,
+  "lon": 72.6474689,
+  "tags": {
+    "name": "GNLU",
+    "name:gu": "જી એન એલ યુ",
+    "network": "Ahmedabad Metro",
+    "operator": "Gujarat Metro Rail Corporation Limited",
+    "operator:wikidata": "Q113158873",
+    "operator:wikipedia": "en:Gujarat Metro Rail Corporation Limited",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12196641357,
+  "lat": 23.1533555,
+  "lon": 72.6855536,
+  "tags": {
+    "name": "GIFT City",
+    "name:gu": "ગિફ્ટ સિટી",
+    "network": "Ahmedabad Metro",
+    "operator": "Gujarat Metro Rail Corporation Limited",
+    "operator:wikidata": "Q113158873",
+    "operator:wikipedia": "en:Gujarat Metro Rail Corporation Limited",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12196641362,
+  "lat": 23.0751088,
+  "lon": 72.5932910,
+  "tags": {
+    "name": "AEC",
+    "name:gu": "એ ઇ સી",
+    "network": "Ahmedabad Metro",
+    "operator": "Gujarat Metro Rail Corporation Limited",
+    "operator:wikidata": "Q113158873",
+    "operator:wikipedia": "en:Gujarat Metro Rail Corporation Limited",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q114427225"
+  }
+},
+{
+  "type": "node",
+  "id": 12196641364,
+  "lat": 23.0856303,
+  "lon": 72.5922060,
+  "tags": {
+    "name": "Sabarmati",
+    "name:en": "Sabarmati",
+    "name:gu": "સાબરમતી",
+    "name:hi": "साबरमती",
+    "network": "Ahmedabad Metro",
+    "operator": "Gujarat Metro Rail Corporation Limited",
+    "operator:wikidata": "Q113158873",
+    "operator:wikipedia": "en:Gujarat Metro Rail Corporation Limited",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q114427233"
+  }
+},
+{
+  "type": "node",
+  "id": 12196641366,
+  "lat": 23.0967726,
+  "lon": 72.5966920,
+  "tags": {
+    "name": "Motera Stadium",
+    "name:gu": "મોટેરા સ્ટેડિયમ",
+    "network": "Ahmedabad Metro",
+    "operator": "Gujarat Metro Rail Corporation Limited",
+    "operator:wikidata": "Q113158873",
+    "operator:wikipedia": "en:Gujarat Metro Rail Corporation Limited",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q114427229"
+  }
+},
+{
+  "type": "node",
+  "id": 12406995811,
+  "lat": 23.0497480,
+  "lon": 72.5160152,
+  "tags": {
+    "name": "Thaltej",
+    "name:gu": "થલતેજ",
+    "network": "Ahmedabad Metro",
+    "network:wikidata": "Q1895288",
+    "operator": "Gujarat Metro Rail Corporation Limited",
+    "operator:wikidata": "Q113158873",
+    "operator:wikipedia": "en:Gujarat Metro Rail Corporation Limited",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q114400494"
+  }
+},
+{
+  "type": "node",
+  "id": 12408894281,
+  "lat": 23.0502062,
+  "lon": 72.5070123,
+  "tags": {
+    "name": "Thaltej Gam",
+    "name:gu": "થલતેજ",
+    "network": "Ahmedabad Metro",
+    "network:wikidata": "Q1895288",
+    "operator": "Gujarat Metro Rail Corporation Limited",
+    "operator:wikidata": "Q113158873",
+    "operator:wikipedia": "en:Gujarat Metro Rail Corporation Limited",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q131418464"
+  }
+},
+{
+  "type": "node",
+  "id": 12696728310,
+  "lat": 23.1548645,
+  "lon": 72.6612117,
+  "tags": {
+    "name": "PDPU",
+    "name:gu": "પી ડી પી યુ",
+    "network": "Ahmedabad Metro",
+    "operator": "Gujarat Metro Rail Corporation Limited",
+    "operator:wikidata": "Q113158873",
+    "operator:wikipedia": "en:Gujarat Metro Rail Corporation Limited",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikipedia": "en:List of Ahmedabad Metro stations"
+  }
+},
+{
+  "type": "node",
+  "id": 12858592937,
+  "lat": 23.2150688,
+  "lon": 72.6587511,
+  "tags": {
+    "name": "Sachivalaya",
+    "name:gu": "સચિવાલય",
+    "network": "Ahmedabad Metro",
+    "operator": "Gujarat Metro Rail Corporation Limited",
+    "operator:wikidata": "Q113158873",
+    "operator:wikipedia": "en:Gujarat Metro Rail Corporation Limited",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q130354856"
+  }
+},
+{
+  "type": "node",
+  "id": 12858592938,
+  "lat": 23.2114841,
+  "lon": 72.6501927,
+  "tags": {
+    "name": "Sector-10A",
+    "name:gu": "સેક્ટર-10એ",
+    "network": "Ahmedabad Metro",
+    "operator": "Gujarat Metro Rail Corporation Limited",
+    "operator:wikidata": "Q113158873",
+    "operator:wikipedia": "en:Gujarat Metro Rail Corporation Limited",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q130354857"
+  }
+},
+{
+  "type": "node",
+  "id": 13457569568,
+  "lat": 23.2236772,
+  "lon": 72.6641817,
+  "tags": {
+    "name": "Akshardham",
+    "network": "Ahmedabad Metro",
+    "operator": "Gujarat Metro Rail Corporation Limited",
+    "operator:wikidata": "Q113158873",
+    "operator:wikipedia": "en:Gujarat Metro Rail Corporation Limited",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13457569573,
+  "lat": 23.2289260,
+  "lon": 72.6594151,
+  "tags": {
+    "name": "Juna Sachivalaya",
+    "network": "Ahmedabad Metro",
+    "operator": "Gujarat Metro Rail Corporation Limited",
+    "operator:wikidata": "Q113158873",
+    "operator:wikipedia": "en:Gujarat Metro Rail Corporation Limited",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13457569580,
+  "lat": 23.2338826,
+  "lon": 72.6501659,
+  "tags": {
+    "name": "Sector-16",
+    "network": "Ahmedabad Metro",
+    "operator": "Gujarat Metro Rail Corporation Limited",
+    "operator:wikidata": "Q113158873",
+    "operator:wikipedia": "en:Gujarat Metro Rail Corporation Limited",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13457569587,
+  "lat": 23.2385075,
+  "lon": 72.6414782,
+  "tags": {
+    "name": "Sector-24",
+    "network": "Ahmedabad Metro",
+    "operator": "Gujarat Metro Rail Corporation Limited",
+    "operator:wikidata": "Q113158873",
+    "operator:wikipedia": "en:Gujarat Metro Rail Corporation Limited",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13457569598,
+  "lat": 23.2339412,
+  "lon": 72.6338714,
+  "tags": {
+    "name": "Mahatma Mandir",
+    "network": "Ahmedabad Metro",
+    "operator": "Gujarat Metro Rail Corporation Limited",
+    "operator:wikidata": "Q113158873",
+    "operator:wikipedia": "en:Gujarat Metro Rail Corporation Limited",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+}
+
+  ]
+}

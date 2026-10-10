@@ -1,0 +1,9 @@
+.venv/
+_archive/
+starter/
+__pycache__/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.pdf

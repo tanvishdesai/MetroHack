@@ -1,0 +1,54 @@
+id,name,line,line_name,sequence_on_line,sequence_by_line,lat,lon,interchange,opened,coord_source,osm_ids
+S001,Akshardham,Yellow,Yellow (Phase 2) - Motera Stadium to Mahatma Mandir,17,"{""yellow"": 17}",23.2236772,72.6641817,False,"January 11, 2026",osm_metro_node,13457569568;13457569568
+S002,Dholakuva Circle,Yellow,Yellow (Phase 2) - Motera Stadium to Mahatma Mandir,12,"{""yellow"": 12}",23.1859445,72.6433202,False,"September 17, 2024",osm_metro_node,12196641352;12196641352
+S003,GNLU,Yellow;violet,Yellow (Phase 2) - Motera Stadium to Mahatma Mandir,9,"{""yellow"": 9, ""violet"": 1}",23.1544724,72.6474689,True,"September 17, 2024",osm_metro_node,12196641355;12196641355
+S004,Infocity,Yellow,Yellow (Phase 2) - Motera Stadium to Mahatma Mandir,13,"{""yellow"": 13}",23.1922574,72.6397126,False,"September 17, 2024",osm_metro_node,12196641353;12196641353
+S005,Juna Koba,Yellow,Yellow (Phase 2) - Motera Stadium to Mahatma Mandir,7,"{""yellow"": 7}",23.1419718,72.6386122,False,"September 28, 2025",osm_metro_node,12196641344;12196641344
+S006,Juna Sachivalaya,Yellow,Yellow (Phase 2) - Motera Stadium to Mahatma Mandir,18,"{""yellow"": 18}",23.228926,72.6594151,False,"January 11, 2026",osm_metro_node,13457569573;13457569573
+S007,Koba Circle,Yellow,Yellow (Phase 2) - Motera Stadium to Mahatma Mandir,6,"{""yellow"": 6}",23.1322508,72.631042,False,"April 27, 2025",osm_metro_node,12196641345;12196641345
+S008,Koba Gam,Yellow,Yellow (Phase 2) - Motera Stadium to Mahatma Mandir,8,"{""yellow"": 8}",23.1476065,72.6439048,False,"September 28, 2025",osm_metro_node,12196433538;12196433543
+S009,Koteshwar Road,Yellow,Yellow (Phase 2) - Motera Stadium to Mahatma Mandir,2,"{""yellow"": 2}",23.1031114,72.6021329,False,"April 27, 2025",osm_metro_node,12196641349;12196641349
+S010,Mahatma Mandir,Yellow,Yellow (Phase 2) - Motera Stadium to Mahatma Mandir,21,"{""yellow"": 21}",23.2339412,72.6338714,False,"January 11, 2026",osm_metro_node,13457569598;13457569598
+S011,Narmada Canal,Yellow,Yellow (Phase 2) - Motera Stadium to Mahatma Mandir,5,"{""yellow"": 5}",23.1251457,72.6220979,False,"April 27, 2025",osm_metro_node,12196641346;12196641346
+S012,Randesan,Yellow,Yellow (Phase 2) - Motera Stadium to Mahatma Mandir,11,"{""yellow"": 11}",23.1790845,72.6472905,False,"September 17, 2024",osm_metro_node,12196641351;12196641351
+S013,Raysan,Yellow,Yellow (Phase 2) - Motera Stadium to Mahatma Mandir,10,"{""yellow"": 10}",23.1663954,72.6483252,False,"September 17, 2024",osm_metro_node,12196641350;12196641350
+S014,Sachivalaya,Yellow,Yellow (Phase 2) - Motera Stadium to Mahatma Mandir,16,"{""yellow"": 16}",23.2150688,72.6587511,False,"April 27, 2025",osm_metro_node,12858592937;12858592937
+S015,Sector-1,Yellow,Yellow (Phase 2) - Motera Stadium to Mahatma Mandir,14,"{""yellow"": 14}",23.2049077,72.6431519,False,"September 17, 2024",osm_metro_node,12196641354;12196641354
+S016,Sector-10A,Yellow,Yellow (Phase 2) - Motera Stadium to Mahatma Mandir,15,"{""yellow"": 15}",23.2114841,72.6501927,False,"April 27, 2025",osm_metro_node,12858592938;12858592938
+S017,Sector-16,Yellow,Yellow (Phase 2) - Motera Stadium to Mahatma Mandir,19,"{""yellow"": 19}",23.2338826,72.6501659,False,"January 11, 2026",osm_metro_node,13457569580;13457569580
+S018,Sector-24,Yellow,Yellow (Phase 2) - Motera Stadium to Mahatma Mandir,20,"{""yellow"": 20}",23.2385075,72.6414782,False,"January 11, 2026",osm_metro_node,13457569587;13457569587
+S019,Tapovan Circle,Yellow,Yellow (Phase 2) - Motera Stadium to Mahatma Mandir,4,"{""yellow"": 4}",23.1201271,72.6157987,False,"April 27, 2025",osm_metro_node,12196641347;12196641347
+S020,Vishwakarma College,Yellow,Yellow (Phase 2) - Motera Stadium to Mahatma Mandir,3,"{""yellow"": 3}",23.1141999,72.6083864,False,"April 27, 2025",osm_metro_node,12196641348;12196641348
+S021,Amraiwadi,blue,Blue (East-West),4,"{""blue"": 4}",23.0078702,72.628387,False,"March 4, 2019",osm_metro_node,6432742906;9655564654
+S022,Apparel Park,blue,Blue (East-West),5,"{""blue"": 5}",23.0106793,72.6182372,False,"March 4, 2019",osm_metro_node,5622701027;9655564621
+S023,Commerce Six Road,blue,Blue (East-West),12,"{""blue"": 12}",23.04489,72.54353,False,"September 30, 2022",osm_route_relation_member_inferred,
+S024,Doordarshan Kendra,blue,Blue (East-West),14,"{""blue"": 14}",23.0481619,72.5245072,False,"September 30, 2022",osm_metro_node,5622701095;10076565352
+S025,Gheekanta,blue,Blue (East-West),8,"{""blue"": 8}",23.028794,72.5867752,False,"September 30, 2022",osm_metro_node,7944287424;7944287424
+S026,Gujarat University,blue,Blue (East-West),11,"{""blue"": 11}",23.04072,72.55309,False,"September 30, 2022",osm_route_relation_member_inferred,
+S027,Gurukul Road,blue,Blue (East-West),13,"{""blue"": 13}",23.0458984,72.5348766,False,"September 30, 2022",osm_metro_node,10076565330;10076565331
+S028,Kalupur Railway Station,blue,Blue (East-West),7,"{""blue"": 7}",23.0246913,72.6031447,True,"September 30, 2022",osm_metro_node,7944287415;7944287415
+S029,Kankaria East,blue,Blue (East-West),6,"{""blue"": 6}",23.0154573,72.6070016,False,"September 30, 2022",osm_metro_node,7944287418;7944287418
+S030,Nirant Cross Road,blue,Blue (East-West),,,,,False,"March 4, 2019",missing,
+S031,Rabari Colony,blue,Blue (East-West),3,"{""blue"": 3}",23.005434,72.6356099,False,"March 4, 2019",osm_metro_node,5622697516;9655564655
+S032,SP Stadium,blue,Blue (East-West),,,,,False,"September 30, 2022",missing,
+S033,Shahpur,blue,Blue (East-West),9,"{""blue"": 9}",23.0392105,72.5810327,False,"September 30, 2022",osm_metro_node,7944287421;7944287421
+S034,Thaltej,blue,Blue (East-West),15,"{""blue"": 15}",23.049748,72.5160152,False,"September 30, 2022",osm_metro_node,12406995811;12406995811
+S035,Thaltej Gam,blue,Blue (East-West),16,"{""blue"": 16}",23.0502062,72.5070123,False,"December 8, 2024",osm_metro_node,12408894281;12408894281
+S036,Vastral,blue,Blue (East-West),2,"{""blue"": 2}",23.0035137,72.6477085,False,"March 4, 2019",osm_metro_node,6432742907;9655564690
+S037,Vastral Gam,blue,Blue (East-West),1,"{""blue"": 1}",22.9971722,72.6674713,False,"March 4, 2019",osm_metro_node,6432742909;9655564728
+S038,AEC,red,Red (North-South),12,"{""red"": 12}",23.0751088,72.593291,False,"September 30, 2022",osm_metro_node,12196641362;12196641362
+S039,APMC,red,Red (North-South),1,"{""red"": 1}",22.9978076,72.5371148,False,"September 30, 2022",osm_metro_node,10076616651;10076616652
+S040,Gandhigram,red,Red (North-South),6,"{""red"": 6}",23.0271741,72.5688588,False,"September 30, 2022",osm_metro_node,10076616710;10076616711
+S041,Jivraj Park,red,Red (North-South),2,"{""red"": 2}",23.0055428,72.5334888,False,"September 30, 2022",osm_metro_node,10076859907;10076859908
+S042,Motera Stadium,red;yellow,Red (North-South),14,"{""red"": 14, ""yellow"": 1}",23.0967726,72.596692,True,"September 30, 2022",osm_metro_node,12196641366;12196641366
+S043,Old High Court,red;blue,Red (North-South),7,"{""blue"": 10, ""red"": 7}",23.0375221,72.5670126,True,"September 30, 2022",osm_metro_node,5622701067;10076565256;10076616759
+S044,Paldi,red,Red (North-South),5,"{""red"": 5}",23.0185007,72.5623543,False,"September 30, 2022",osm_metro_node,10076859848;10076859849
+S045,Rajiv Nagar,red,Red (North-South),3,"{""red"": 3}",23.0097515,72.53676,False,"September 30, 2022",osm_metro_node,10076859881;10076859882
+S046,Ranip,red,Red (North-South),11,"{""red"": 11}",23.0676918,72.5741519,False,"September 30, 2022",osm_metro_node,9503556232;10076859828
+S047,Sabarmati,red,Red (North-South),13,"{""red"": 13}",23.0827773,72.5911599,False,"September 30, 2022",osm_metro_node,12196641364;323189766;12196641364
+S048,Shreyas,red,Red (North-South),4,"{""red"": 4}",23.0136262,72.5492544,False,"September 30, 2022",osm_metro_node,10076859862;10076859863
+S049,Usmanpura,red,Red (North-South),8,"{""red"": 8}",23.0459226,72.5649612,False,"September 30, 2022",osm_metro_node,10076616753;10076616754
+S050,Vadaj,red,Red (North-South),10,"{""red"": 10}",23.0676714,72.565891,False,"September 30, 2022",osm_metro_node,10076616712;10076616713
+S051,Vijay Nagar,red,Red (North-South),9,"{""red"": 9}",23.0564434,72.5622917,False,"September 30, 2022",osm_metro_node,5622776290;10076616748
+S052,GIFT City,violet,Violet (Phase 2) - GIFT City branch,3,"{""violet"": 3}",23.1533555,72.6855536,False,"September 17, 2024",osm_metro_node,12196641357;12196641357
+S053,PDEU,violet,Violet (Phase 2) - GIFT City branch,2,"{""violet"": 2}",23.1548645,72.6612117,False,"September 17, 2024",osm_metro_node,12696728310;12696728310
