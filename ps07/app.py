@@ -229,4 +229,4 @@ with right:
             st.dataframe([{"time": datetime.fromtimestamp(h["created_at"]).strftime("%H:%M:%S"),
                            "entity": f"{h['entity']} {h['entity_id'][:10]} r{h['revision']}",
                            "note": h["note"], "synced": "yes" if h["acked_at"] else "pending"}
-                          for h in storage.history(sel["id"])], hide_index=True, use_container_width=True)
+                          for h in storage.history(sel["id"])], hide_index=True, width="stretch")
