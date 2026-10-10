@@ -115,4 +115,9 @@ assert triage.script_language("gu", live) == "gujlish" and triage.script_languag
 x = add("Motera Lift L2 ma koi fasaya chhe", R(language="gu", department="lifts", urgency=5, asset_id="Lift L2",
                                              evidence_quote="fasaya chhe", draft_reply="તમારી ફરિયાદ"))
 assert x["department"] == "safety" and x["language"] == "gujlish" and x["ai_draft"] is None
+# model labels a lift emergency "staff": it must still escalate the open Lift L2 incident
+stuck = add("Someone is stuck inside lift 2 at Motera", R(department="safety", issue_family="staff", urgency=5,
+                                                          asset_id="Lift L2", evidence_quote="stuck inside lift 2"))
+assert stuck["incident_id"] == lift["id"], stuck
+assert next(i for i in storage.incidents() if i["id"] == lift["id"])["priority"] == 5
 print("rule checks passed")

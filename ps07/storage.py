@@ -166,6 +166,8 @@ def apply_result(cid, res, raw, ms, err, known_stations):
             if hz and res.urgency < 4:  # rules warn, the controller decides; no automatic override
                 issues.append(f"keyword pre-screen found {', '.join(hz)} but AI urgency is {res.urgency}")
             asset = triage.canonical_asset(res.asset_id, c["text"])
+            if asset and asset.split()[0] in ("Lift", "Escalator") and res.issue_family in ("staff", "other", "other_safety"):
+                res.issue_family = "lift"  # model labels some lift emergencies "staff"; keep cleanliness/fare separate
             draft = triage.template_reply(res.language, c["text"], c["short_id"], res.urgency)
             ai_draft = res.draft_reply
             if triage.unsafe_reply(ai_draft) or triage.template_key(res.language, ai_draft) !=                     triage.template_key(res.language, c["text"]):
