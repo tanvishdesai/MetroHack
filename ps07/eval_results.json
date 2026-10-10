@@ -1,0 +1,183 @@
+{
+  "summary": {
+    "model": "gemma4:e2b",
+    "n": 11,
+    "valid_ai": 7,
+    "review_required": 4,
+    "failed_inference": 0,
+    "urgent_recall_ai": "2/3",
+    "urgent_recall_keyword_baseline": "3/3",
+    "false_urgent_ai": "0/8",
+    "false_urgent_keyword_baseline": "1/8",
+    "department_correct": "10/11",
+    "incorrect_merges": 0,
+    "latency_ms_median": 6488,
+    "latency_ms_max": 8873,
+    "caveat": "Smoke test on a handful of synthetic cases with draft labels; not production validation."
+  },
+  "rows": [
+    {
+      "id": "E0",
+      "status": "done",
+      "latency_ms": 6488,
+      "error": null,
+      "expected_dept": "lifts",
+      "got_dept": "lifts",
+      "expected_urgent": false,
+      "got_urgency": 3,
+      "keyword_urgent": false,
+      "issues": [],
+      "incident": "INC-F42FD0",
+      "group": "motera-l2"
+    },
+    {
+      "id": "E1",
+      "status": "done",
+      "latency_ms": 6478,
+      "error": null,
+      "expected_dept": "safety",
+      "got_dept": "safety",
+      "expected_urgent": true,
+      "got_urgency": 5,
+      "keyword_urgent": true,
+      "issues": [],
+      "incident": "INC-3EB6D3",
+      "group": "e1"
+    },
+    {
+      "id": "E2",
+      "status": "review",
+      "latency_ms": 7141,
+      "error": null,
+      "expected_dept": "safety",
+      "got_dept": "lifts",
+      "expected_urgent": true,
+      "got_urgency": 3,
+      "keyword_urgent": true,
+      "issues": [
+        "keyword pre-screen found फंस but AI urgency is 3"
+      ],
+      "incident": "INC-7B4490",
+      "group": "e2"
+    },
+    {
+      "id": "E3",
+      "status": "done",
+      "latency_ms": 6500,
+      "error": null,
+      "expected_dept": "safety",
+      "got_dept": "safety",
+      "expected_urgent": true,
+      "got_urgency": 5,
+      "keyword_urgent": true,
+      "issues": [],
+      "incident": "INC-2788BE",
+      "group": "e3"
+    },
+    {
+      "id": "E4",
+      "status": "review",
+      "latency_ms": 8873,
+      "error": null,
+      "expected_dept": "fare",
+      "got_dept": "fare",
+      "expected_urgent": false,
+      "got_urgency": 2,
+      "keyword_urgent": true,
+      "issues": [
+        "keyword pre-screen found smoke but AI urgency is 2"
+      ],
+      "incident": "INC-6E9A04",
+      "group": "e4"
+    },
+    {
+      "id": "E5",
+      "status": "done",
+      "latency_ms": 7097,
+      "error": null,
+      "expected_dept": "lifts",
+      "got_dept": "lifts",
+      "expected_urgent": false,
+      "got_urgency": 3,
+      "keyword_urgent": false,
+      "issues": [],
+      "incident": "INC-D51CA4",
+      "group": "e5"
+    },
+    {
+      "id": "E6",
+      "status": "review",
+      "latency_ms": 6253,
+      "error": null,
+      "expected_dept": "review",
+      "got_dept": "review",
+      "expected_urgent": false,
+      "got_urgency": 1,
+      "keyword_urgent": false,
+      "issues": [
+        "model requested review",
+        "unclear complaint"
+      ],
+      "incident": "INC-11BEC8",
+      "group": "e6"
+    },
+    {
+      "id": "E7",
+      "status": "done",
+      "latency_ms": 5773,
+      "error": null,
+      "expected_dept": "lifts",
+      "got_dept": "lifts",
+      "expected_urgent": false,
+      "got_urgency": 3,
+      "keyword_urgent": false,
+      "issues": [],
+      "incident": "INC-EE18D9",
+      "group": "sabarmati-l2"
+    },
+    {
+      "id": "E8",
+      "status": "done",
+      "latency_ms": 6417,
+      "error": null,
+      "expected_dept": "cleanliness",
+      "got_dept": "cleanliness",
+      "expected_urgent": false,
+      "got_urgency": 2,
+      "keyword_urgent": false,
+      "issues": [],
+      "incident": "INC-96B100",
+      "group": "e8"
+    },
+    {
+      "id": "E9",
+      "status": "done",
+      "latency_ms": 6638,
+      "error": null,
+      "expected_dept": "cleanliness",
+      "got_dept": "cleanliness",
+      "expected_urgent": false,
+      "got_urgency": 2,
+      "keyword_urgent": false,
+      "issues": [],
+      "incident": "INC-897CDA",
+      "group": "e9"
+    },
+    {
+      "id": "E10",
+      "status": "review",
+      "latency_ms": 6471,
+      "error": null,
+      "expected_dept": "staff",
+      "got_dept": "staff",
+      "expected_urgent": false,
+      "got_urgency": 2,
+      "keyword_urgent": false,
+      "issues": [
+        "unclear complaint"
+      ],
+      "incident": "INC-9F6858",
+      "group": "e10"
+    }
+  ]
+}

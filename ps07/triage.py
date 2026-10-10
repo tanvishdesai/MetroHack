@@ -9,7 +9,7 @@ import requests
 from pydantic import BaseModel, ConfigDict, Field, ValidationError
 
 OLLAMA = os.environ.get("PS07_OLLAMA", "http://127.0.0.1:11434")
-MODEL = os.environ.get("PS07_MODEL", "qwen3:1.7b")
+MODEL = os.environ.get("PS07_MODEL", "gemma4:e2b")
 MAX_CHARS = 1500
 TIMEOUT_S = 90
 
@@ -108,7 +108,8 @@ def model_status():
 _HAZARD = [
     r"\btrapped\b", r"\bstuck inside\b", r"\bsmoke\b", r"\bfire\b", r"\binjur\w*", r"\bbleeding\b",
     r"\bunconscious\b", r"\bknife\b", r"\battack\w*",
-    r"\bfa?sa(?:ya|yo|yi|i|ai)\b", r"\bph?a(?:n)?s(?:a|e|i)\b", r"\bfanse\b", r"\bdhuma?do\b",
+    r"\bfa?sa(?:ya|yo|yi|yu|i|ai)\b", r"\b(?:ph|f)ans(?:e|a|i)\b", r"\bphans\b",
+    r"\b(?:ph|f)as(?:e|a|i) (?:hue|hai|hain|gaya|gaye|gayi)\b", r"\bdhuma?do\b",
     r"\bdhua+n?\b", r"\baag\b", r"\bghayal\b", r"\bbehosh\b", r"\bmaramari\b",
     "ફસા", "ધુમાડ", r"આગ(?![઀-૿])", "ઘાયલ", "બેભાન",
     "फंस", "फँस", "फसे", "धुआ", r"आग(?![ऀ-ॿ])", "घायल", "बेहोश",
@@ -121,7 +122,7 @@ def hazard_screen(text):
     return sorted({m.group(0) for m in _HAZARD_RE.finditer(text)})
 
 
-_ASSET_RE = re.compile(r"\b(lift|elevator|escalator|gate)\s*-?\s*([a-z]{0,2}\s*-?\s*\d+)\b", re.IGNORECASE)
+_ASSET_RE = re.compile(r"\b(lift|elevator|escalator|gate)\s*-?\s*([a-z]\s*-?\s*\d+)\b", re.IGNORECASE)
 
 
 def canonical_asset(model_asset, text):
@@ -183,6 +184,13 @@ def template_key(language, text):
     if re.search(r"[ऀ-ॿ]", text):
         return "hi"
     return {"hi": "hi_roman", "gu": "gujlish", "gujlish": "gujlish"}.get(language, "en")
+
+
+def script_language(language, text):
+    """Correct gu/gujlish label from the actual script; the model confuses them."""
+    if language in ("gu", "gujlish"):
+        return "gu" if re.search(r"[઀-૿]", text) else "gujlish"
+    return language
 
 
 def template_reply(language, text, cid, urgency):

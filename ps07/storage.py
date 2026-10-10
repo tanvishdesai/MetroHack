@@ -126,22 +126,35 @@ def _new_incident(con, c, asset):
     return iid
 
 
-def _match(con, station, asset, at):
-    """Open incident at same station with same explicit asset and a report within 30 min."""
+FAMILY = {"lift": "lift", "other_safety": "lift", "other": "lift"}  # fault + entrapment share a lift incident
+
+
+def _match(con, station, asset, at, family):
+    """Open incident at same station, same explicit asset, compatible issue family, report within 30 min."""
     if not asset:
         return None
-    row = con.execute("SELECT id FROM incidents WHERE status='open' AND station=? AND asset_id=?"
-                      " AND ABS(last_report_at - ?) <= ? ORDER BY last_report_at DESC LIMIT 1",
-                      (station, asset, at, GROUP_WINDOW_S)).fetchone()
-    return row[0] if row else None
+    for (iid,) in con.execute("SELECT id FROM incidents WHERE status='open' AND station=? AND asset_id=?"
+                              " AND ABS(last_report_at - ?) <= ? ORDER BY last_report_at DESC",
+                              (station, asset, at, GROUP_WINDOW_S)).fetchall():
+        fams = {FAMILY.get(f, f) for (f,) in con.execute(
+            "SELECT issue_family FROM complaints WHERE incident_id=? AND issue_family IS NOT NULL", (iid,))}
+        if fams <= {FAMILY.get(family, family)}:
+            return iid
+    return None
 
 
 def apply_result(cid, res, raw, ms, err, known_stations):
     """Store AI result (or failure), assign incident, update priority, emit outbox events."""
     with _con() as con, con:
+        con.execute("BEGIN IMMEDIATE")  # check-then-write must be atomic across tabs
         c = con.execute("SELECT * FROM complaints WHERE id=?", (cid,)).fetchone()
         if c["status"] not in ("pending", "failed") or c["corrected"]:
             return  # never reclassify completed or controller-corrected rows
+        stale = None
+        if c["status"] == "failed" and c["incident_id"] and not con.execute(
+                "SELECT 1 FROM outbox WHERE entity_id=? AND note LIKE 'attached by controller%'", (cid,)).fetchone():
+            stale = c["incident_id"]  # retry after failure: regroup from scratch
+            con.execute("UPDATE complaints SET incident_id=NULL WHERE id=?", (cid,))
         if res is None:
             con.execute("UPDATE complaints SET status='failed', error=?, raw=?, latency_ms=?, model=?,"
                         " issues=?, revision=revision+1 WHERE id=?",
@@ -149,9 +162,17 @@ def apply_result(cid, res, raw, ms, err, known_stations):
             asset = None
         else:
             issues = triage.validate(res, c["text"], c["station"], known_stations)
+            hz = json.loads(c["hazards"])
+            if hz and res.urgency < 4:  # rules warn, the controller decides; no automatic override
+                issues.append(f"keyword pre-screen found {', '.join(hz)} but AI urgency is {res.urgency}")
             asset = triage.canonical_asset(res.asset_id, c["text"])
             draft = triage.template_reply(res.language, c["text"], c["short_id"], res.urgency)
-            ai_draft = None if triage.unsafe_reply(res.draft_reply) else res.draft_reply
+            ai_draft = res.draft_reply
+            if triage.unsafe_reply(ai_draft) or triage.template_key(res.language, ai_draft) !=                     triage.template_key(res.language, c["text"]):
+                ai_draft = None  # wrong script or unsupported claim: keep only the reviewed template
+            res.language = triage.script_language(res.language, c["text"])
+            if res.urgency == 5 and res.department != "review":
+                res.department = "safety"  # rule: explicit current threat -> safety queue, even for a lift
             con.execute(
                 "UPDATE complaints SET status=?, error=NULL, raw=?, latency_ms=?, model=?, extraction=?,"
                 " language=?, department=?, urgency=?, issue_family=?, asset_id=?, event_state=?,"
@@ -161,17 +182,20 @@ def apply_result(cid, res, raw, ms, err, known_stations):
                  res.evidence_quote, json.dumps(issues, ensure_ascii=False), draft, ai_draft, cid))
         c = con.execute("SELECT * FROM complaints WHERE id=?", (cid,)).fetchone()
         # review/failed rows never auto-attach; they get their own incident
-        iid = c["incident_id"] or (_match(con, c["station"], asset, c["received_at"])
+        iid = c["incident_id"] or (_match(con, c["station"], asset, c["received_at"], c["issue_family"])
                                    if c["status"] == "done" else None) \
             or _new_incident(con, c, asset if c["status"] == "done" else None)
         con.execute("UPDATE complaints SET incident_id=? WHERE id=?", (iid, cid))
         _emit(con, "complaint", cid, f"triaged: {c['status']}")
         _recompute(con, iid, "new report")
+        if stale and stale != iid:
+            _recompute(con, stale, "report regrouped after retry")
 
 
 def correct(cid, department, urgency, draft, ack_status):
     """Controller correction. Original text is never touched."""
     with _con() as con, con:
+        con.execute("BEGIN IMMEDIATE")
         con.execute("UPDATE complaints SET department=?, urgency=?, draft=?, ack_status=?, corrected=1,"
                     " revision=revision+1 WHERE id=?", (department, urgency, draft, ack_status, cid))
         _emit(con, "complaint", cid, f"controller correction: {department}, urgency {urgency}, {ack_status}")
@@ -185,6 +209,7 @@ def get_incident_id(con, cid):
 def attach(cid, target_iid):
     """Operator attaches a report to another open incident."""
     with _con() as con, con:
+        con.execute("BEGIN IMMEDIATE")
         old = get_incident_id(con, cid)
         if old == target_iid:
             return

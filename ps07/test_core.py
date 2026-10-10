@@ -93,3 +93,26 @@ with sqlite3.connect(os.environ["PS07_CENTRAL_DB"]) as con:
 assert triage.canonical_asset(None, "lift-l 2 broken") == "Lift L2"
 assert triage.hazard_screen("aage jao") == [] and triage.hazard_screen("આગળ જાઓ") == []
 print("all checks passed")
+
+# reviewer fixes: retry after failure regroups; family guard; tighter regexes
+lift = next(i for i in storage.incidents() if i["id"] == inc["id"])
+c = storage.add_complaint("Motera Lift L2 ma koi fasayu chhe", "counter", "Motera Stadium")
+storage.apply_result(c, None, "", 5, "AI unavailable: ConnectionError", ST)
+failed_inc = storage.get_complaint(c)["incident_id"]
+assert failed_inc != lift["id"]
+storage.apply_result(c, R(department="safety", urgency=5, asset_id="Lift L2", evidence_quote="fasayu chhe"),
+                     "{}", 100, None, ST)
+assert storage.get_complaint(c)["incident_id"] == lift["id"]
+assert next(i for i in storage.incidents(True) if i["id"] == failed_inc)["status"] == "closed"
+dirty = add("Motera Lift L2 andar ganda chhe", R(department="cleanliness", issue_family="cleanliness",
+                                                 urgency=2, asset_id="Lift L2", evidence_quote="ganda chhe"))
+assert dirty["incident_id"] != lift["id"]
+assert triage.canonical_asset(None, "lift ma 20 minute thi band") is None
+assert triage.hazard_screen("Gate pase bhid chhe, Phase 2") == []
+assert triage.hazard_screen("lift mein log phans gaye") != []
+print("reviewer-fix checks passed")
+assert triage.script_language("gu", live) == "gujlish" and triage.script_language("gu", "બંધ છે") == "gu"
+x = add("Motera Lift L2 ma koi fasaya chhe", R(language="gu", department="lifts", urgency=5, asset_id="Lift L2",
+                                             evidence_quote="fasaya chhe", draft_reply="તમારી ફરિયાદ"))
+assert x["department"] == "safety" and x["language"] == "gujlish" and x["ai_draft"] is None
+print("rule checks passed")

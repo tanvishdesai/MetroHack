@@ -88,6 +88,8 @@ with left:
             except ValueError as e:
                 st.error(str(e))
 
+    for b in ss.pop("csv_errors", []):
+        st.error(b)
     up = st.file_uploader("CSV import (UTF-8: text, station, channel)", type="csv")
     if up and st.button("Import CSV", key="import_csv"):
         digest = hashlib.sha256(up.getvalue()).hexdigest()
@@ -107,6 +109,7 @@ with left:
                     except ValueError as e:
                         bad.append(f"line {i}: {e}")
                 ss.imported.add(digest)
+                ss.csv_errors = bad  # shown after run_triage's rerun
                 for b in bad:
                     st.error(b)
                 if ids:
